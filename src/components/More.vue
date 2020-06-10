@@ -1,0 +1,42 @@
+<template>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="more" width="80.001" height="80.001" viewBox="0 0 80.001 80.001">
+  <defs>
+    <linearGradient id="more-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f8971b"/>
+      <stop offset="1" stop-color="#9b391a"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_6" data-name="Group 6" transform="translate(-919.999 -960)">
+    <path class="more-1" data-name="Subtraction 5" d="M58-12680a39.724,39.724,0,0,1-15.57-3.146,39.888,39.888,0,0,1-12.715-8.57,39.9,39.9,0,0,1-8.571-12.718A39.707,39.707,0,0,1,18-12720H38a19.868,19.868,0,0,0,5.865,14.136A19.866,19.866,0,0,0,58-12700a20.023,20.023,0,0,0,20-20H98a39.762,39.762,0,0,1-3.142,15.567,39.855,39.855,0,0,1-8.574,12.718,39.839,39.839,0,0,1-12.715,8.57A39.724,39.724,0,0,1,58-12680Z" transform="translate(902 13680)" fill="url(#more-gradient)"/>
+    <path class="more-2" data-name="Subtraction 4" d="M58-12680a39.724,39.724,0,0,1-15.57-3.146,39.888,39.888,0,0,1-12.715-8.57,39.9,39.9,0,0,1-8.571-12.718A39.707,39.707,0,0,1,18-12720H38a19.868,19.868,0,0,0,5.865,14.136A19.866,19.866,0,0,0,58-12700a20.023,20.023,0,0,0,20-20H98a39.762,39.762,0,0,1-3.142,15.567,39.855,39.855,0,0,1-8.574,12.718,39.839,39.839,0,0,1-12.715,8.57A39.724,39.724,0,0,1,58-12680Z" transform="translate(902 13700)" fill="url(#more-gradient)"/>
+    <path class="more-3" data-name="Subtraction 3" d="M58-12680a39.724,39.724,0,0,1-15.57-3.146,39.888,39.888,0,0,1-12.715-8.57,39.9,39.9,0,0,1-8.571-12.718A39.707,39.707,0,0,1,18-12720H38a19.868,19.868,0,0,0,5.865,14.136A19.866,19.866,0,0,0,58-12700a20.023,20.023,0,0,0,20-20H98a39.762,39.762,0,0,1-3.142,15.567,39.855,39.855,0,0,1-8.574,12.718,39.839,39.839,0,0,1-12.715,8.57A39.724,39.724,0,0,1,58-12680Z" transform="translate(902 13720)" fill="url(#more-gradient)"/>
+  </g>
+  
+</svg>
+</template>
+
+<script>
+export default {
+  name: 'More',
+  props: {
+    msg: String
+  }
+}
+</script>
+
+<style lang="scss">
+.more {
+    display: block;
+    margin: 0 auto;
+
+    &-1 {
+      opacity: .2;
+    }
+    &-2 {
+      opacity: .6;
+    }
+    &-3 {
+      opacity: 1;
+    }
+}
+</style>
