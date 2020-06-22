@@ -1,7 +1,12 @@
 <template>
   <header class="header">
-    <Hamburger />
-    <Logo />
+    <div class="row row-justify-flex-end">
+      <Hamburger />
+    </div>
+    
+    <div class="row row-justify-center">
+      <Logo />
+    </div>
   </header>
 </template>
 
@@ -24,6 +29,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .header {
-  text-align: center;
+  /* text-align: center; */
 }
 </style>

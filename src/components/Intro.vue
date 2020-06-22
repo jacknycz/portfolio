@@ -25,5 +25,6 @@ export default {
 <style scoped>
 .intro {
   text-align: center;
+  color: #fff;
 }
 </style>
